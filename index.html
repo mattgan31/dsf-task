@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Matto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <style>
+      * {
+        font-family: "Nunito Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-variation-settings: "wdth" 100, "YTLC" 500;
+      }
+
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="bg-white flex flex-row p-8 shadow space-x-2 items-center">
+      <h2 class="text-2xl font-bold text-[#ee2e6c] pr-6">Matto</h2>
+      <form class="w-full max-w-lg">
+        <div class="relative">
+          <div
+            class="absolute inset-y-0 start-0 flex items-center ps-2 pointer-events-none"
+          >
+            <span class="material-symbols-outlined text-gray-500">search </span>
+          </div>
+          <input
+            type="text"
+            placeholder="Cari di Matto"
+            class="border-[1px] pl-8 border-gray-200 focus:border-[#ee2e6c] outline-none text-sm p-2 rounded-md w-full"
+          />
+        </div>
+      </form>
+      <button
+        class="border-[1px] hover:bg-gray-200 hover:text-[#ee2e6c] text-[#ee2e6c] border-gray-200 w-[38px] h-[38px] p-4 rounded-md flex items-center justify-center"
+      >
+        <span class="material-symbols-outlined"> shopping_cart </span>
+      </button>
+      <button
+        class="border-[1px] hover:bg-gray-200 hover:text-[#ee2e6c] text-[#ee2e6c] border-gray-200 w-[38px] h-[38px] p-4 rounded-md flex items-center justify-center"
+      >
+        <span class="material-symbols-outlined"> notifications </span>
+      </button>
+      <div class="flex flex-row w-full justify-end items-center">
+        <div
+          class="flex flex-row border-[1px] space-x-1 p-2 rounded-lg items-center"
+        >
+          <span class="material-symbols-outlined text-[#ee2e6c]">
+            account_circle
+          </span>
+          <p class="leading-none">Rahmat</p>
+        </div>
+      </div>
+    </header>
+    <div class="py-8 px-24">
+      <div>
+        <div class="rounded-lg">
+          <img src="images/promo-laptop.png" class="rounded-xl" />
+        </div>
+      </div>
+    </div>
+    <div class="px-24">
+      <div
+        class="flex flex-col p-2 bg-white shadow-lg rounded-lg border-[1px] border-gray-200"
+      >
+        <div class="flex flex-row justify-between space-x-4 h-full px-2">
+          <div class="w-full space-y-1 flex flex-col">
+            <h1 class="text-xl font-bold">Kategori Pilihan</h1>
+            <div
+              class="flex flex-row justify-between px-4 py-2 space-x-4 h-full"
+            >
+              <div
+                class="flex flex-col items-center p-4 w-full rounded-lg border-gray-200 border-[1px] justify-center"
+              >
+                <p>Makanan</p>
+                <p>Kering</p>
+              </div>
+              <div
+                class="flex flex-col items-center p-4 w-full rounded-lg border-gray-200 border-[1px] justify-center"
+              >
+                <p>Makanan</p>
+                <p>Kering</p>
+              </div>
+              <div
+                class="flex flex-col items-center p-4 w-full rounded-lg border-gray-200 border-[1px] justify-center"
+              >
+                <p>Makanan</p>
+                <p>Kering</p>
+              </div>
+              <div
+                class="flex flex-col items-center p-4 w-full rounded-lg border-gray-200 border-[1px] justify-center"
+              >
+                <p>Makanan</p>
+                <p>Kering</p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full space-y-1 flex flex-col">
+            <h1 class="text-xl font-bold">Top Up & Tagihan</h1>
+            <div class="py-2 h-full">
+              <div
+                class="flex flex-col border-[1px] border-gray-200 rounded-lg pt-2"
+              >
+                <div
+                  class="flex flex-row justify-between border-b-2 border-gray-200"
+                >
+                  <div
+                    class="w-[25%] border-b-2 border-[#ee2e6c] flex justify-center"
+                  >
+                    <p class="text-[#ee2e6c] text-md font-bold">Pulsa</p>
+                  </div>
+                  <div class="w-[25%] flex justify-center">
+                    <p class="text-md text-gray-500 font-bold">Paket Data</p>
+                  </div>
+                  <div class="w-[25%] flex justify-center">
+                    <p class="text-md text-gray-500 font-bold">Flight</p>
+                  </div>
+                  <div class="w-[25%] flex justify-center">
+                    <p class="text-md text-gray-500 font-bold">Listrik PLN</p>
+                  </div>
+                </div>
+                <div class="flex flex-row p-2 space-x-3 items-end">
+                  <div class="flex flex-col">
+                    <label class="text-sm font-extrabold text-gray-500"
+                      >Nomor Telepon</label
+                    >
+                    <input
+                      type="text"
+                      placeholder="Masukan Nomor"
+                      class="border-2 border-gray-200 px-2 py-2 rounded-md text-sm"
+                    />
+                  </div>
+                  <div class="flex flex-col">
+                    <label class="text-sm font-extrabold text-gray-500"
+                      >Nominal</label
+                    >
+                    <input
+                      type="text"
+                      placeholder="Masukan Nominal"
+                      class="border-2 border-gray-200 px-2 py-2 rounded-md text-sm"
+                    />
+                  </div>
+                  <div class="flex flex-col w-full">
+                    <button
+                      class="bg-[#ee2e6c] text-white py-2 px-2 w-full rounded-md"
+                    >
+                      Beli
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-sm flex flex-row p-2 space-x-2">
+          <button
+            class="border-[1px] border-gray-200 py-2 px-3 rounded-xl w-full"
+          >
+            Kategori
+          </button>
+          <button
+            class="border-[1px] border-gray-200 py-2 px-3 rounded-xl w-full"
+          >
+            Kategori
+          </button>
+          <button
+            class="border-[1px] border-gray-200 py-2 px-3 rounded-xl w-full"
+          >
+            Kategori
+          </button>
+          <button
+            class="border-[1px] border-gray-200 py-2 px-3 rounded-xl w-full"
+          >
+            Kategori
+          </button>
+          <button
+            class="border-[1px] border-gray-200 py-2 px-3 rounded-xl w-full"
+          >
+            Kategori
+          </button>
+          <button
+            class="border-[1px] border-gray-200 py-2 px-3 rounded-xl w-full"
+          >
+            Kategori
+          </button>
+          <button
+            class="border-[1px] border-gray-200 py-2 px-3 rounded-xl w-full"
+          >
+            Kategori
+          </button>
+          <button
+            class="border-[1px] border-gray-200 py-2 px-3 rounded-xl w-full"
+          >
+            Kategori
+          </button>
+          <button
+            class="border-[1px] border-gray-200 py-2 px-3 rounded-xl w-full"
+          >
+            Kategori
+          </button>
+          <button
+            class="border-[1px] border-gray-200 py-2 px-3 rounded-xl w-full"
+          >
+            Kategori
+          </button>
+          <button
+            class="border-[1px] border-gray-200 py-2 px-3 rounded-xl w-full"
+          >
+            Kategori
+          </button>
+          <button
+            class="border-[1px] border-gray-200 py-2 px-3 rounded-xl w-full"
+          >
+            Kategori
+          </button>
+          <button
+            class="border-[1px] border-gray-200 py-2 px-3 rounded-xl w-full"
+          >
+            Kategori
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="py-8 px-24 space-y-2">
+      <div class="flex flex-row space-x-2 items-end h-12">
+        <h1 class="text-xl font-bold">Diskon Spesial</h1>
+        <p class="text-md text-gray-500">Berakhir dalam</p>
+        <div class="flex items-center space-x-1">
+          <span
+            class="leading-none bg-red-500 text-white px-2 py-3 rounded-md font-bold"
+            >00</span
+          >
+          <span class="text-red-500">:</span>
+          <span
+            class="leading-none bg-red-500 text-white px-2 py-3 rounded-md font-bold"
+            >00</span
+          >
+          <span class="text-red-500">:</span>
+          <span
+            class="leading-none bg-red-500 text-white px-2 py-3 rounded-md font-bold"
+            >00</span
+          >
+        </div>
+      </div>
+      <div class="flex flex-row items-center">
+        <div
+          class="flex bg-[#ee2e6c] p-4 h-[300px] w-[300px] items-center rounded-lg"
+        >
+          <div class="flex flex-col justify-center items-center w-fit">
+            <p class="text-lg font-extrabold text-white">Dapatkan</p>
+            <p class="text-white">
+              <span class="text-lg font-bold">Diskon</span> s.d.
+            </p>
+            <p class="text-[48pt] font-black text-white leading-none">90%</p>
+          </div>
+        </div>
+        <div class="flex flex-row absolute left-[20%] space-x-2">
+          <div class="bg-white rounded-lg shadow-md">
+            <img src="images/infinix.jpg" class="w-48 rounded-t-lg" />
+            <div class="p-2">
+              <p>Rp1.899.000</p>
+              <p class="text-xs line-through text-gray-500">Rp2.599.000</p>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg shadow-md">
+            <img src="images/iqoo.webp" class="w-48 rounded-t-lg" />
+            <div class="p-2">
+              <p>Rp1.899.000</p>
+              <p class="text-xs line-through text-gray-500">Rp2.599.000</p>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg shadow-md">
+            <img src="images/poco.jpeg" class="w-48 rounded-t-lg" />
+            <div class="p-2">
+              <p>Rp1.899.000</p>
+              <p class="text-xs line-through text-gray-500">Rp2.599.000</p>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg shadow-md">
+            <img src="images/realme.jpg" class="w-48 rounded-t-lg" />
+            <div class="p-2">
+              <p>Rp1.899.000</p>
+              <p class="text-xs line-through text-gray-500">Rp2.599.000</p>
+            </div>
+          </div>
+          <div class="bg-white rounded-lg shadow-md">
+            <img src="images/tecno.jpg" class="w-48 rounded-t-lg" />
+            <div class="p-2">
+              <p>Rp1.899.000</p>
+              <p class="text-xs line-through text-gray-500">Rp2.599.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="fixed right-8 bottom-8 text-[#ee2e6c]">
+      <a href="#">
+        <div
+          class="flex flex-row justify-center space-x-1 bg-white shadow-md rounded-full py-2 px-4"
+        >
+          <span class="material-symbols-outlined"> chat </span>
+          <span>Chat</span>
+        </div>
+      </a>
+    </div>
+  </body>
+</html>
